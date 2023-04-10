@@ -1,4 +1,4 @@
-from script import predicts as pr
+from herramientas.script import predicts as pr
 mat=['LEC',
      ['VIT/SK','FNC/G2', 'AST/BDS', 'HRT/KOI', 'MAD/XL'],
      ['PABLO','VIT','FNC','AST','KOI','MAD'],

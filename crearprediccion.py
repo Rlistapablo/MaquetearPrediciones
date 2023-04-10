@@ -1,4 +1,4 @@
-from script import predicts as pr
+from herramientas.script import predicts as pr
 from os import path, system, listdir
 def menu_splits():
     splits=pr.getsplit()
@@ -91,8 +91,9 @@ def all(split,league):
             break 
         for x in range(0,len(pl)):
             if pl[x]==pla:
-                print(x)
                 temp_pl.append([pla])
+                pl.remove(pla)
+                break
     if temp_pl==[]:
         input('ERROR, NO PUSISTE NINGUN JUGADOR')
         exit()

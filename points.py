@@ -1,4 +1,4 @@
-from script import predicts as pr
+from herramientas.script import predicts as pr
 from os import path, system, listdir
 def mainmenu():
     while True:
@@ -88,6 +88,7 @@ def add(split,league):
     add_player(a,league,split)
 
 def addpont(split,league):
+    system('cls')
     players=pr.getplayers(league,split)
     pl=[]
     for x in players:

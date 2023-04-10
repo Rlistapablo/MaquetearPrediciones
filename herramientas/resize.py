@@ -1,6 +1,6 @@
 from PIL import Image 
 import os
-path1="img\\teams\\superliga" 
+path1="img\\teams\\msi" 
 getfiles=os.listdir(path1)
 new=[]
 for x in getfiles:
